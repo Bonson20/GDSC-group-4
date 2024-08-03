@@ -13,7 +13,7 @@ img{
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 1400px;
+    height: 1300px;
     top: -1px;
     opacity: 0px;
     position: relative;
@@ -22,15 +22,15 @@ img{
 }
 .home12{
     width: 100%;
-    height:1400px ;
+    height:1300px ;
     background-image: 
        linear-gradient(to top, 
          rgb(255, 255, 255, 1),
          rgb(255, 255, 255, 0.4)6%,
          rgb(255, 255, 255, 0),
+         rgb(255, 255, 255, 0)15%,
          rgb(255, 255, 255, 0),
-         rgb(255, 255, 255, 0),
-         rgba(0,0,0)
+         rgba(0,0,0,0.9)
 
          )
 }
@@ -120,7 +120,7 @@ img{
     width: 779px;
     height: 204px;
     position: absolute;
-    top: 560px;
+    top: 500px;
     left: 300px;
     gap: 0px;
     opacity: 0px;
@@ -140,14 +140,14 @@ img{
     width: 568px;
     height: 44px;
     position: absolute;
-    top: 240px;
+    top: 230px;
     left: 100px;
     gap: 0px;
     opacity: 0px;
     
   }
   .minidescription1 p{
-    font-family: Open Sans;
+    font-family: "Open Sans";
     font-size: 16px;
     font-weight: 400;
     line-height: 21.79px;
@@ -203,7 +203,317 @@ img{
     height: 200px;
     
 }
-    
+.home2 .container{
+  display: flex ;
+  justify-content: space-around;
+  width: 90%;
+  margin: 0 auto;
+  gap: 50px ;
+  border: 30px;
+  margin-top: 300px;
+  margin-bottom: 100px;
+}
+.home2 .container .box1,
+.home2 .container .box2,
+.home2 .container .box3{
+  border: 2px thin black;
+  width: 40%;
+  border-radius: 15px;
+  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.15);
+
+}
+.home2 .container .box1 .imgbox1,
+.home2 .container .box2 .imgbox2,
+.home2 .container .box3 .imgbox3{
+  width: 16%;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+
+}
+.home2 .container .box1 .imgbox1{
+  margin-left: 40px;
+}
+.box1 .titlebox1,
+.box2 .titlebox2,
+.box3 .titlebox3,
+.box1 .descriptionbox1,
+.box2 .descriptionbox2,
+.box3 .descriptionbox3{
+  
+  padding-left: 40px;
+  padding-bottom: 17px;
+  padding-right: 20px;
+}
+.box1 .titlebox1,
+.box2 .titlebox2,
+.box3 .titlebox3{
+  font-family: "Open Sans";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.68px;
+}
+.box1 .descriptionbox1,
+.box2 .descriptionbox2,
+.box3 .descriptionbox3{
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: left;
+  
+}
+.home3{
+  background-color: rgba(0, 88, 83, 0.05);
+  position: relative;
+
+}
+.container3 img{
+  /* background-image: url(/Images/world\ map\ 1.png); */
+  /* background-size: cover;
+  background-position: center; */
+  width: 1200px;
+  height: 672px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 100px;
+  padding-left: 100px;
+  opacity: 0.32px;  
+}
+.container3texts{
+  text-align: center;
+  position: absolute;
+  top: 100px;
+  left: 450px;
+}
+.container3texts .title3{
+  font-family: "Open Sans";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 54.47px;
+  padding-bottom: 25px  ;
+
+  
+}
+.container3texts .description3{
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  text-align: center;
+  
+}
+.flex3{
+  display: flex;
+  width: 20%;
+  margin-left: 100px;
+  gap: 40px;
+  position: absolute;
+  top: 380px;
+  padding-bottom: 30px;
+  
+}
+.insideflex3box1,
+.insideflex3box2,
+.insideflex3box3,
+.insideflex3box4{
+  width: 250px;
+  height: 250px;
+  box-shadow: rgb(66, 61, 61);
+  border-radius: 15px;
+  position: relative;
+}
+.insideflex3box1,
+.insideflex3box2,
+.insideflex3box3,
+.insideflex3box4{
+  background-color: white;
+}
+.flex3box1img,
+.flex3box2img,
+.flex3box3img,
+.flex3box4img{
+  width: 42px;
+  height: 42px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  margin: 0 auto;
+}
+.flex3box1number,
+.flex3box2number,
+.flex3box3number,
+.flex3box4number{
+  font-family: Open Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 49.03px;
+  text-align: left;
+  
+}
+.flex3box1desc,
+.flex3box2desc,
+.flex3box3desc,
+.flex3box4desc{
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.24px;
+  text-align: center;
+  padding-top: 15px;
+  
+}
+.flex3box1desc,
+.flex3box2desc,
+.flex3box3desc,
+.flex3box4desc,
+.flex3box1number,
+.flex3box2number,
+.flex3box3number,
+.flex3box4number{
+  text-align: center;
+}
+ 
+/* Home 4 */
+
+
+.home4 .title4{
+  font-family: "Open Sans";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 54.47px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 80px;
+  margin-top: 25px;
+  padding-top: 20px;
+  
+  
+}
+.flex4{
+  display: flex;
+  gap: 130px;
+  position: relative;
+}
+.left4 img{
+  width: 1090px;
+  height: 772px;
+  opacity: 0.6px; 
+}
+/* .ellipse1,
+.ellipse2,
+.ellipse3{
+
+} */
+.ellipse1,
+.ellipse2,
+.ellipse3{
+  background-color: dodgerblue;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
+}
+.ellipse1{
+  position: absolute;
+  top:670px;
+  left: 456px;
+}
+.ellipse2{
+  position: absolute;
+  top:478px;
+  left: 327px;
+}
+.ellipse3{
+  position: absolute;
+  top:400px;
+  left: 250px;
+}
+.ellipse1 img,
+.ellipse2 img,
+.ellipse3 img{
+  width: 20px;
+  height: 20px;
+}
+.right4{
+  margin-right: 80px;
+  margin-bottom: 50px;
+}
+.right4 .right4cont1,
+.right4 .right4cont2,
+.right4 .right4cont3{
+  display: flex;
+  width: 659px;
+  height: 223px;
+  border-radius: 15px;
+  align-items: center;
+  position: relative;  
+  box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 1);
+
+}
+.right4 .right4cont1{
+  margin-bottom: 30px;
+}
+.right4 .right4cont2{
+  margin-bottom: 30px;
+}
+.right4img1 img,
+.right4img2 img,
+.right4img3 img{
+  width: 223px;
+  height: 220px;
+  border-radius: 15px 0px 0px 15px;
+  position: absolute;
+  top: 2px;
+}
+.right4cont1 .country1,
+.right4cont2 .country2,
+.right4cont3 .country3{
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.24px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  margin-left: 36px;
+  margin-right: 47px;
+  position: absolute;
+  left: 230px;
+  
+}
+.right4cont1 .spots1,
+.right4cont2 .spots2,
+.right4cont3 .spots3{
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27.24px;
+  text-align: left;  
+  position: absolute;
+  left: 430px;
+}
+.right4cont1 .navigateicon img,
+.right4cont2 .navigateicon img,
+.right4cont3 .navigateicon img{
+  width: 43px;
+  height: 43px;
+  padding: 8.82px 11.55px 8.82px 12.4px;
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  top: 96px;
+  left: 590px;
+  
+}
+.right4cont1 .navigateicon img,
+.right4cont2 .navigateicon img,
+.right4cont3 .navigateicon img
+:hover{
+  cursor: pointer;
+}
+
+
+
+
 
 
 
