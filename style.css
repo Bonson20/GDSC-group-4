@@ -1,6 +1,6 @@
 /* general-styling */
 body{
-    font-family: sans-serif;
+    font-family: Open Sans;
 }
 .combined-sections{
    
@@ -140,7 +140,8 @@ text-decoration:underline #0d6efd;
     padding-bottom: 10px;
 }
 .hotel{
-    border: 0.1px solid  #d2d2d7;
+    
+   box-shadow: 3px 1px 1px 3px rgba(0, 0, 0, 0.1);
    
      border-radius: 15px;
      
@@ -150,13 +151,14 @@ text-decoration:underline #0d6efd;
 }
 
 .tour{
-    border: 0.1px solid #d2d2d7;
+    border: 0.1px solid #fff;
      border-radius: 15px;
     margin-left: 5px;
      background-color: aliceblue;
+     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 .ticket{
-     border: 0.1px solid #ccc;
+     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
      border-radius: 15px;
     margin-right: 5px;
      background-color: aliceblue;
@@ -172,7 +174,7 @@ text-decoration:underline #0d6efd;
     background-image: url(../world\ map\ 1.png);
     height: 500px;
     background-position: center;
-    background-color: azure;
+    background-color: #ECF1F0;
    
 }
 .text-containers{
@@ -218,3 +220,147 @@ text-decoration:underline #0d6efd;
     
 }
 /* section-4 styling */
+.section-4{
+    background-image: url(../world\ map\ 2.png);
+    height: auto;
+    
+}
+.section-4 h1{
+    text-align: center;
+    margin: 30px 0;
+    background-color: #fff;
+}
+
+.country-1 , .country-2 , .country-3{
+    display: flex;
+    background-color: #fff;
+      box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.country-2{
+    
+     margin: 38px 0;
+      
+}
+.country-location{
+    display: flex;
+}
+
+
+.section-4 .description{
+    display: flex;
+    
+}
+ .picture img{
+    position: relative;
+    width: 200px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 15px;
+  
+    
+}
+.spots{
+    margin: 0 30px;
+    margin-right: 100px;
+}
+.three-countries{
+    margin-left: 650px;
+    margin-right: 50px;
+    background-color: white;
+}
+
+.section-4 .description{
+    padding: 50px;
+    padding-top: 98px;
+}
+
+/* section-5 styling */
+.section-5{
+    background-color: #ECF1F0;
+    font-family: Open Sans;
+}
+
+.section-5 h1{
+    text-align: center;
+    padding-top: 30px;
+}
+.six-buttons{
+display: flex;
+justify-content: space-between;
+padding: 0 60px;
+padding-top: 30px;
+padding-bottom: 50px;
+
+
+}
+button{
+    background-color:#666666;
+    border: 0.1px solid #ccc;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    color: #fff;
+    font-weight: bold;
+}
+.button1{
+    background-color:  rgb(12, 170, 12);
+}
+.three-islands{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 70px;
+    
+}
+.view img{
+    position: relative;
+    width: 350px;
+    height: 323px;
+    border-bottom-left-radius: none;
+    border-bottom-right-radius: none;
+}
+.cost{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding: 0 20px;
+}
+.more{
+     display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+.map-place{
+    display: flex;
+    font-weight: bold;
+}
+
+.known{
+    text-decoration: underline  -90px  black;
+    text-decoration-style: solid;
+    font-weight: bold;
+}
+.texts{
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+.island{
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.advert{
+    padding: 20px 0;
+    padding-left: 10px;
+    padding-right: 40px;
+}
+.discover-button{
+    text-align: center;
+    padding: 70px 0;
+}
+.button-7{
+    background-color: rgb(12, 170, 12);
+    width: 150px;
+    height: 40px;
+}
