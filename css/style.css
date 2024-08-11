@@ -406,11 +406,7 @@ img{
   height: 772px;
   opacity: 0.6px; 
 }
-/* .ellipse1,
-.ellipse2,
-.ellipse3{
 
-} */
 .ellipse1,
 .ellipse2,
 .ellipse3{
@@ -722,7 +718,7 @@ img{
   border: 10px 10px 10px 10px;
   border-radius: 26px 26px 26px 26px;
   opacity: 0px;   
-  box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 40px 0px 100px 30px rgba(51, 29, 172, 0.13);
   background-color: rgba(255, 255, 255, 1);}
 
 .flex6 .right .imgright{
@@ -1003,4 +999,361 @@ text-align: left;
   height: 6px;
   background-color: purple;
   border-radius: 15px;
+}
+
+
+/* Home 7 */
+
+.home7{
+  background-color: rgba(236, 241, 240, 1);
+  position: relative;
+  height: 740px;
+}
+.home7 .title7{
+  font-family: "Open Sans";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 54.47px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  padding-top: 55px;
+}
+.home7 .main{
+  width: 900px;
+  height: 536px;
+  gap: 0px;
+  border-radius: 20px 0px 0px 0px;
+  opacity: 0px; 
+  margin-left: 230px;
+  margin-top: 65px;
+}
+.home7 .right{
+  opacity: 0.37;
+  border-radius: 20px;
+  position: absolute;
+  left: 92%;
+  top: 30%;
+}
+.home7 .right img{
+  height: 300px;
+  width: 450px;
+
+}
+.home7 .left{
+  opacity: 0.37;
+  border-radius: 20px;
+  position: absolute;
+  top: 30%;
+  right: 92%;
+}
+.home7 .left img{
+  height: 300px;
+  width: 450px;
+}
+.home7 .bird{
+  width: 22.49px;
+  height: 15.09px;
+  opacity: 0px;
+  position: absolute;
+  top: 33%;
+  left: 88%;
+  
+}
+.home7 .texts7{
+  width: 738px;
+  height: 250px;
+  opacity: 0px;
+  background-color: rgba(255, 255, 255, 1);
+  padding-top: 90px;
+  margin-inline: auto;
+  position: absolute;
+  top: 58%;
+  left: 22%;
+}
+.home7 .texts7 .loremm{
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 25px;
+}
+.home7 .texts7 .jeo{
+  font-family: "Poppins";
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 33px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+.home7 .man img{
+  width: 148px;
+  height: 148px;
+  border-radius: 50%;
+  border: 1px 1px 1px 1px;
+  border-color: rgba(255, 255, 255, 1);
+  opacity: 0px;
+  position: absolute;
+  bottom: 67%;
+  left: 45%;
+}
+
+
+
+/* Footer */
+.footer1{
+  width: 1000px;
+  height: 407px;
+  gap: 0px;
+  border-radius: 20px;
+  border-top-left-radius: 129px;
+  opacity: 0.6;
+  background-color:rgba(159, 255, 236, 1);
+  border: 1px 1px 1px 1px;
+  border-color: rgba(50, 223, 143, 1);
+  margin-inline: auto;
+  margin-bottom: 200px;
+  margin-top: 70px;
+  padding-top: 90px;
+  position: relative;
+}
+.footer1 .sendlast{
+  width: 80px;
+  height: 50px;
+  position: absolute;
+  bottom: 94%;
+  left: 96%;
+}
+.footer1 .inputand{
+  margin-left: 200px;
+}
+.footer1 .subscribe{
+  font-family: "Open Sans";
+  font-size: 33px;
+  font-weight: 600;
+  line-height: 54px;
+  text-align: center;
+  color: rgba(94, 98, 130, 1);
+  margin-bottom: 70px;
+}
+.footer1 input{
+  width: 421px;
+  height: 55px;
+  border: 1px 1px 1px 1px;
+  opacity: 0px;
+  border-radius: 7px;
+  margin-right: 20px;
+  padding-left: 45px;
+  position: relative;
+  font-size: 16px;
+} 
+.footer1 button{
+  width: 180px;
+  height: 58px;
+  top: 6503px;
+  left: 970px;
+  gap: 0px;
+  border-radius: 10px 10px 10px 10px;
+  opacity: 0px;
+  background-color: rgba(0, 166, 81, 1);
+  font-family: "Open Sans";
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 23.15px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.email{
+  width: 20px;
+  height: 20.5px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  position: absolute;
+  top: 70.7%;
+  left: 21.5%;
+}
+.footer1 button:hover{
+  cursor: pointer;
+  background-color: rgba(0, 166, 81, 0.9);
+
+}
+.footer2{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  width: 90%;
+  margin-left: 50px;
+}
+.faceflex{
+  display: flex;
+  gap: 35px ;
+  margin-bottom: 30px;
+  
+}
+.faceflex .face{
+  width: 57.63px;
+  height: 57.63px;
+  opacity: 0px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+
+}
+.faceflex .face .facebook{
+  width: 10.23px;
+  height: 17.84px;
+  opacity: 0px;
+  margin-top: 20px;
+  margin-left: 23px;
+}
+.faceflex .inst{
+  width: 62.25px;
+  height: 60.25px;
+  border-radius: 50%;
+  opacity: 0px;
+  background: conic-gradient(from 180deg at 50% 50%, #B8D2F1 0deg, #F289AA 60deg, #C68BF0 106.09deg, #D164DA 153.75deg, #C963E8 221.25deg, #BFC2E8 258.75deg, #FFC999 288.75deg, #D0D8C9 315deg, #BAD0F1 334.13deg, #CED8CB 358.97deg, rgba(255, 255, 255, 0) 360deg);
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.faceflex .inst .instagram{
+  width: 22.49px;
+  height: 22.49px;
+  top: 6839.2px;
+  left: 1434.86px;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.no{
+  width: 57.63px;
+  height: 57.63px;
+  opacity: 0px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.discoverourapp{
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24.9px;
+  letter-spacing: 0.005em;
+  color: rgba(94, 98, 130, 1);
+}
+.play img, .apple img{
+  width: 23.11px;
+ height: 23.11px;
+ margin-top: 10px;
+ margin-left: 10px;
+ margin-right: 10px;
+}
+.download .apple{
+  width: 156px;
+  height: 55px;  
+  
+}
+.apple, .play{
+  display: flex;
+  background-color: black; 
+  border-radius: 15px;
+  
+  
+}
+
+.play .playstore, .apple .appleavailable{
+  color: white;
+  font-family: "Poppins";
+  padding-right: 20px;
+  font-size: 14px;
+  padding-top: 6px;
+}
+.play .playstore nobr{
+  font-weight: 700;
+  font-size: 14px;
+}
+.download{
+  display: flex;
+  gap: 15px ;
+  margin-top: 30px;
+}
+.apple .appleavailable .yea{
+  font-weight: 700;
+  margin-left: 12px;
+  
+}
+.apple .appleavailable .nope{
+  font-weight: 300;
+}
+.travelgo .title{
+  font-family: "Laila";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24.6px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 30px;
+}
+.travelgo .title span{
+  font-family: "Laila";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32.8px;
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+.travelgo .desc{
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16.19px;
+  color: rgba(94, 98, 130, 1);
+}
+.one .company, 
+.two .contact, 
+.three .more{
+  font-family: "Open Sans";
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 26.15px;
+  color: rgba(8, 8, 9, 1);
+  margin-bottom: 70px;
+}
+.one .about a, 
+.one .careers a,
+.one .mobile a,
+.two .help a,
+.two .press a,
+.two .press a,
+.two .affiliates a,
+.three .airlinefees a,
+.three .airline a,
+.three .lowfaretips a{
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22.41px;
+  color: rgba(94, 98, 130, 1);
+  list-style: none;
+  text-decoration: none;
+}
+.one2{
+  list-style: none;
+}
+.one2 .careers,
+.one2 .press,
+.one2 .airline{
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.footer3{
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.43px;
+  text-align: left;
+  color: rgba(94, 98, 130, 1);
+  text-align: center;
+  margin-bottom: 40px;
 }
